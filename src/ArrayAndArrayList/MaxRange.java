@@ -8,9 +8,13 @@ public class MaxRange {
     static int maxRange(int[] arr, int start, int end) {
 
         if(end > start){
-            return -1;
+            return 0;
         }
         if(arr== null){
+            return 0;
+        }
+        
+        if(arr.length == 0){
             return 0;
         }
         int max = arr[start];
