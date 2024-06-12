@@ -13,7 +13,7 @@ public class MaxRange {
         if(arr== null){
             return 0;
         }
-        
+
         if(arr.length == 0){
             return 0;
         }
