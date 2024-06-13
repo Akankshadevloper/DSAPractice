@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LeetCodeDSA.iml" filepath="$PROJECT_DIR$/LeetCodeDSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSAPractice.iml" filepath="$PROJECT_DIR$/DSAPractice.iml" />
     </modules>
   </component>
 </project>
