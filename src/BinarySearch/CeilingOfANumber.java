@@ -11,6 +11,11 @@ public class CeilingOfANumber {
 
     //smallest number >= target element
     static int ceiling(int[] arr, int target) {
+
+        //but what if the target element is greater than the greatest number in an array
+        if(target>arr[arr.length-1]){
+            return -1;
+        }
         int start = 0;
         int end = arr.length - 1;
 
